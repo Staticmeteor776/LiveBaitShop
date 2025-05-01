@@ -1,0 +1,16 @@
+@media(max-width: 400px) {
+    body{
+        background-color: cadetblue;
+    }
+    h1{
+        text-align: center;
+    }
+    .tophead {
+        background-color: lightblue;
+        background-image: linear-gradient(to bottom right, skyblue, blue);
+        color: aliceblue;
+    }
+    a {
+        color:black
+    }
+}
