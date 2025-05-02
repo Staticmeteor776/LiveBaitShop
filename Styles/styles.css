@@ -28,11 +28,49 @@
 
 }
 
-/* ----------------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------- */
 
-@media(max-width: 720px) {
+@media(min-width: 400px) {
     body{
         background-color: cadetblue;
+        background-image: url(/Images/iamunderthewaterpleasehelpme.gif);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        min-height: 100vh;
+    }
+    h1{
+        text-align: center;
+    }
+    .tophead {
+        background-color: lightblue;
+        background-image: linear-gradient(to bottom right, skyblue, blue);
+        color: aliceblue;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    nav{
+        background-color: aliceblue;
+        margin: 10px 40px;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    a {
+        color:black;
+    }
+    .card {
+        margin: 0 auto;
+        float: none;
+}
+
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------- */
+
+@media(min-width: 720px) {
+    body{
+        background-color: cadetblue;
+        background-image: url(/Images/iamunderthewaterpleasehelpme.gif);
+        
     }
     h1{
         text-align: center;
@@ -61,11 +99,10 @@
 
 /* ------------------------------------------------------------------------------------------- */
 
-@media(max-width: 1320px) {
+@media(min-width: 1320px) {
     body{
         background-color: cadetblue;
-    }
-    h1{
+        background-image: url(/Images/iamunderthewaterpleasehelpme.gif);
         text-align: center;
     }
     .tophead {
@@ -88,6 +125,7 @@
         margin: 0 auto;
         float: none;
     }
+    
 }
 
 /* ----------------------------------------------------------------------- */
@@ -95,6 +133,8 @@
 @media(min-width: 1320px) {
     body{
         background-color: cadetblue;
+        background-image: url(/Images/iamunderthewaterpleasehelpme.gif);
+        background-size: cover;
     }
     h1{
         text-align: center;
